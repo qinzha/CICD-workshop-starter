@@ -1,0 +1,13 @@
+{
+  "name": "cicd-workshop-demo",
+  "version": "1.0.0",
+  "description": "Demo application for CI/CD workshop",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/index.test.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

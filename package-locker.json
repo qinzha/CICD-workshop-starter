@@ -1,0 +1,15 @@
+{
+  "name": "cicd-workshop-demo",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "cicd-workshop-demo",
+      "version": "1.0.0",
+      "dependencies": {
+        "express": "^4.19.2"
+      }
+    }
+  }
+}

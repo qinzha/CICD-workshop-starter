@@ -27,6 +27,8 @@ jobs:
 
       - name: Run Application Tests
         run: npm test
+        env:
+          NODE_OPTIONS: "--no-deprecation"
 
   # Job 2: Build & Push Container Image
   build-and-publish:
